@@ -66,4 +66,29 @@ npm run lint
  
 ```
 
+# 版本
+
+## v1.0.0 
+
+- 功能
+
+    - 单页面应用
+
+    - vue-router  
+        - 路由为两级路由，一级路由admin/example  
+        - 404 路由
+
+    - axios 
+        - axios请求
+        - request拦截器
+
+    - eslintrc.js 
+        - eslint个性化定制
+
+    - proxy 
+        - 代理
+
+    - element 
+        - 引入但并未使用
+
 
