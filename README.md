@@ -70,6 +70,8 @@ npm run lint
 
 ## v1.0.0 
 
+### 无页面
+
 - 功能
 
     - 单页面应用
@@ -90,5 +92,43 @@ npm run lint
 
     - element 
         - 引入但并未使用
+
+
+        ## V2.0.0 
+
+        ### 具备基本页面布局，已经可以作为后台管理系统直接使用
+- 功能
+
+    - 单页面应用
+
+    - vue-router  
+        - 路由为两级路由，一级路由admin/example  
+        - 404 路由
+
+    - axios 
+        - axios请求
+        - request拦截器
+
+    - eslintrc.js 
+        - eslint个性化定制
+
+    - proxy 
+        - 代理
+
+    - element 
+        - 使用element table dialog page menu
+    
+    - store 
+        - 引入vuex ，vuex作为状态控制
+    
+    - scss 
+        - 引入scss 
+
+    - layout 
+        - 框架布局上，即header,sideBar，content三部分采用采用position布局
+        - 内部布局上用flex。声明了flex选择器，引入class就可以。（不完全版，自行添加）
+    
+    
+    
 
 
