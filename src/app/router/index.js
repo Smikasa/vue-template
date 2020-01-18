@@ -2,7 +2,6 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import { ExampleRoute } from './example/example.route';
 import { AdminRoute } from './admin/admin.route';
-
 Vue.use(Router);
 
 export default new Router({

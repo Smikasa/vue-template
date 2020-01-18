@@ -14,8 +14,8 @@ module.exports = {
     // add your custom rules here
     //it is base on https://github.com/vuejs/eslint-config-vue
     rules: {
-        'no-unused-vars': 0, // 关闭声明未使用的警告
-        'no-console': 'off', // 关闭不能使用console的警告
+        'no-unused-vars': 0, // 关闭-声明未使用的警告
+        'no-console': 'off', // 关闭-不能使用console的警告
         "vue/html-self-closing": ["error", {
             "html": {
                 "void": "never",
@@ -24,16 +24,16 @@ module.exports = {
             },
             "svg": "always",
             "math": "always"
-        }], // 关闭标签内无内容使用单标签闭合的警告
-        // "vue/max-attributes-per-line": [2, {
-        //     "singleline": 10,
-        //     "multiline": {
-        //         "max": 1,
-        //         "allowFirstLine": false
-        //     }
-        // }],
-        // "vue/singleline-html-element-content-newline": "off",
-        // "vue/multiline-html-element-content-newline": "off",
+        }], // 关闭-标签内无内容使用单标签闭合的警告
+        "vue/singleline-html-element-content-newline": "off", //关闭-在单行元素的内容前后需要换行符
+        "vue/multiline-html-element-content-newline": "off", //关闭-在多行元素的内容之前和之后需要换行符
+        "vue/max-attributes-per-line": [2, {
+            "singleline": 10,
+            "multiline": {
+                "max": 1,
+                "allowFirstLine": false
+            }
+        }],
         // "vue/name-property-casing": ["error", "PascalCase"],
         // "vue/no-v-html": "off",
         // 'accessor-pairs': 2,
